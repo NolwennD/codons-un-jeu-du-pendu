@@ -1,0 +1,76 @@
+:source-highlighter: highlightjs
+:icons: font
+:revealjs_theme: solarized
+
+= Codons un jeu du pendu
+
+[,txt]
+----
+                                |        #####
+                                |        #   |
+                                |        #
+                                |        #
+    L__N CR_FT 4 _VR_L 2023     |    #########
+----
+
+== Qui me parle ?
+
+Arthur NOSEDA:: Architecte _digital_ chez Boiron
+Nolwenn DOUCET:: Développeur adepte des machins DD
+
+== Objectifs
+
+* Apprendre
+* Partager
+* Peut-être finir le kata
+
+== Kata et TDD
+
+=== Un kata
+
+C’est un exercice de code (en création ou en refactoring) facilement appréhendable et qui peut être recommencé à l’envie
+
+=== TDD
+
+C’est une technique de design de code qui s’articule autour d’une boucle
+
+. Écire un test
+. Le faire échouer (faut que ça compile)
+. Écrire l’implémentation la plus directe
+. Améliorer l’existant (important toujours refactorer quand on est en vert)
+. Reprendre en *1*
+
+=== Déroulé de l’atelier
+
+9h30 – 9h45:: Présentation et mise en place des binômes
+9h45 – 10h30:: Première itération sans guide
+10h30 – 10h45:: Rétrospective intermédiaire
+
+=== Déroulé de l’atelier
+
+10h45 – 11h45:: Seconde itération avec des contraintes
+11h45 – 12h00:: Rétrospective
+
+== Première itération
+9h45 – 10h30:: Trouver un ou une binôme
+Règles métier:: 
+* `_` est le caractère masquant
+* Insensible à la casse
+* Que des lettres
+* Afficher le nombre d’erreurs
+
+== Rétrospective intermédiaire
+
+== Seconde itération
+10h45 – 11h45:: Changement de binôme
+
+=== Seconde itération
+Contraintes:: 
+* Ne jamais exposer le secret
+* Tout petit pas, commit toutes les deux minutes maximum
+* Immutabilité
+Règles métier::
+* Un jeu terminé ne permet plus de jouer
+* Jouer une lettre déjà trouvée fait échouer
+
+== Rétrospective globale
