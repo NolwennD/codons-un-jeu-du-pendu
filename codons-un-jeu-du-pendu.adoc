@@ -10,13 +10,13 @@
                                 |        #   |
                                 |        #
                                 |        #
-    L__N CR_FT 4 _VR_L 2023     |    #########
+    V_LC_MP 12 _CT_BR_ 2023     |    #########
 ----
 
 == Qui me parle ?
 
-Arthur NOSEDA:: Architecte _digital_ chez Boiron
-Nolwenn DOUCET:: Développeur adepte des machins DD
+Anthony REY:: Développeur CSS chez Ippon
+Nolwenn DOUCET:: Développeur adepte des machins DD chez Ideme
 
 == Objectifs
 
@@ -34,7 +34,7 @@ C’est un exercice de code (en création ou en refactoring) facilement appréhe
 
 C’est une technique de design de code qui s’articule autour d’une boucle
 
-. Écire un test
+. Écrire un test
 . Le faire échouer (faut que ça compile)
 . Écrire l’implémentation la plus directe
 . Améliorer l’existant (important toujours refactorer quand on est en vert)
@@ -42,17 +42,18 @@ C’est une technique de design de code qui s’articule autour d’une boucle
 
 === Déroulé de l’atelier
 
-9h30 – 9h45:: Présentation et mise en place des binômes
-9h45 – 10h30:: Première itération sans guide
-10h30 – 10h45:: Rétrospective intermédiaire
+10h15 – 10h30:: Présentation et mise en place des binômes
+10h30 – 11h00:: Première itération sans guide
+11h00 – 11h10:: Rétrospective intermédiaire
 
 === Déroulé de l’atelier
 
-10h45 – 11h45:: Seconde itération avec des contraintes
-11h45 – 12h00:: Rétrospective
+11h10 - 11h15:: Nouveaux binôme
+11h15 – 12h00:: Seconde itération avec des contraintes
+12h00 – 12h15:: Rétrospective
 
 == Première itération
-9h45 – 10h30:: Trouver un ou une binôme
+=== Jusqu’à 11h00
 Règles métier:: 
 * `_` est le caractère masquant
 * Insensible à la casse
@@ -62,15 +63,14 @@ Règles métier::
 == Rétrospective intermédiaire
 
 == Seconde itération
-10h45 – 11h45:: Changement de binôme
 
-=== Seconde itération
+=== Jusqu’à 12h00
 Contraintes:: 
 * Ne jamais exposer le secret
 * Tout petit pas, commit toutes les deux minutes maximum
 * Immutabilité
 Règles métier::
 * Un jeu terminé ne permet plus de jouer
-* Jouer une lettre déjà trouvée fait échouer
+* Proposer une lettre déjà trouvée est une erreur
 
 == Rétrospective globale
